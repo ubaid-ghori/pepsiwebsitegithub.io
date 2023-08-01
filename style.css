@@ -68,7 +68,12 @@
     font-weight: bolder;
     margin-top: 10px;
   }
-
+  @media screen and (max-width: 800px)
+  {
+    h2{
+        font-size: 30px;
+    } 
+  }
   .learn-more-button {
     display: inline-block;
     padding: 10px 20px;
@@ -88,10 +93,21 @@
 .image-sec2{
     display: flex;
     background-color:#0c0b21;
+} 
+@media screen and (max-width: 800px){
+    .image-sec2{
+        display: block;
+        background-color: #0c0b21;
+    }
 }
 .text{
     margin-left: 40px;
     width: 40%;
+}
+@media screen and (max-width: 800px){
+    .text{
+        width: 80%;
+    }
 }
 #h1-sec{
     text-transform: uppercase;
@@ -110,3 +126,6 @@ p{
     padding: 20px;
     text-align: center;
   }
+body{
+    background-color: #1c4ca9;
+}
