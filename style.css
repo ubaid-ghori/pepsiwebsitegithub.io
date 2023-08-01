@@ -29,6 +29,18 @@
     font-size: 50px;
 }
 
+@media screen and (max-width: 800px) {
+    .contanier-text h1 {
+        font-size: 70px;
+    }
+    .contanier-text h2{
+        font-size: 40px;
+    }
+    .contanier-text h3{
+        font-size: 20px;
+    }
+  }
+
 
 
 
